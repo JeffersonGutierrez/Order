@@ -1,0 +1,53 @@
+:root{
+    /* aqui se comenta
+    colores primarios 
+    */
+    --Pale-blue:hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    /* los colores neutrales */
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+    /*arcor color*/
+    --a-arcor: hsl(228, 45%, 44%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--Pale-blue);
+}
+
+.paymen-cart{
+    width: 85%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 68px;
+    background-color: white;
+    border-radius: 18px;
+}
+
+main{
+    text-align: center;
+}
+
+main h1{
+    font-weight: 900;
+}
+
+main p{
+    color: var(--Desaturated-blue);
+    font-weight: 500;
+    margin: 0 35px 30px 35px;
+    line-height: 24px;
+}
+.plan-music{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.botones{
+
+}
