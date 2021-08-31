@@ -26,6 +26,12 @@ body{
     margin-top: 68px;
     background-color: white;
     border-radius: 18px;
+
+}
+
+.paymen-cart header img{
+    height: 148px;
+    width: 100%;
 }
 
 main{
@@ -39,15 +45,51 @@ main h1{
 main p{
     color: var(--Desaturated-blue);
     font-weight: 500;
-    margin: 0 35px 30px 35px;
+    margin: 0 32px 32px 32px;
     line-height: 24px;
 }
+
 .plan-music{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    margin: 8px 24px 24px 24px;
+    padding: 12px;
+    background-color: var(--Very-pale-blue);
+    border-radius: 12px;
+}
+.anual{
+    font-weight: 700;
+}
+.precio{
+    color: var(--Desaturated-blue);
+}
+a{
+     color: var(--a-arcor);
+     font-weight: 700;
 }
 .botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+.pago{
+    margin: 0 auto 12px auto;
+    background-color: var(--Bright-blue);
+    color: white;
+    border-color: var(--Bright-blue);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 64px 8px 64px;
+    box-shadow: 0 14px 14px -6px var(--Pale-blue);
+}
+.cancelar{  
+    border: none;
+    background-color: white;
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: var(--Desaturated-blue);
+    font-weight: 700;
 }
